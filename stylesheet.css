@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size:  10px;
+  color: #FFFFFF;
+}
+ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/* Barra navegadora */
+.navbar {
+  background: linear-gradient(
+    -90deg,
+    #000035,
+    #062863
+   );
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 2em;
+  z-index: 1;
+}
+/* Barra navegadora firma */
+.firma{
+  display: flex;
+  width: 18.25vw;
+  justify-content: center;
+  align-items: center;
+}
+/* Barra navegadora secciones */
+.categorias {
+  width: 63.5vw;
+  display: flex;
+}
+.categorias li{
+    margin: auto 3rem;
+}
+/* Barra navegadora redes sociales */
+.links{
+  width: 18.25vw;
+  display: flex;
+  justify-content: center;
+}
+.links li{
+  margin: auto 10px;
+}
+/* P\'e1gina de Inicio */
+#inicio {
+  background: linear-gradient(
+    -90deg,
+    #000035,
+    #062863
+   );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner {
+  font-size: 30px;
+  margin: 0 20px;
+}
+.conteiner h2{
+  font-size: 30px;
+  justify-content: center;
+}
+.foto-principal {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  box-shadow: 1px 1px 5px #FFF;
+  object-fit: cover;
+}
+/* Sección mis proyectos */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(110px, auto);
+}
+img {
+  width: 300px;
+  border-radius: 5px;
+}
+.marcos{
+  background-color: red;
+  width: 320px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+/* escalado de 3 fotos a 2 */
+@media only screen and (max-width: 900px){
+  .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+}
+/* escalado de 2 fotos a 1 */
+@media only screen and (max-width: 600px){
+  .wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+}
+}
+/* Sección curriculum */
+#curriculum {
+  width: 840px;
+  height: 1138px;
+  margin: 0 auto;
+  display: flex;
+}
+.curriculum-izq{
+  background-color: #9aadcf;
+  width: 41%;
+  height: 100%;
+}
+/* Curriculum Foto */
+.curriculum-div {
+  width: 75%;
+  margin: 0 auto;
+}
+#curriculum-foto {
+  margin: 50px 0;
+  width: 100%;
+}
+/* Texto de perfil */
+.parrafo {
+  margin: 0;
+}
+.curriculum-title {
+  font-size: 10px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  color: #004AAD;
+}
+.arrow-box {
+  width: 10px;
+}
+.arrow {
+  margin-top: 3px;
+  margin-rigth: 10px;
+  transform: rotate(90deg);
+  border-bottom: 16px solid #004AAD;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.curriculum-title h2 {
+  margin-left: 22px;
+  font-size: 20px;
+}
+.parrafo {
+  width: 100%;
+  margin-top: 30px;
+}
+.curriculum-texto {
+  width: 80%;
+  margin: 20px auto;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: none;
+  line-height: 24px;
+}
+.parrafo p:first-of-type {
+  margin: 3px auto 0 auto;
+}
+/* Separación */
+.curriculum-dots {
+  font-size: 30px;
+  letter-spacing: 0.08em;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  overflow-x: hidden;
+  color: #004AAD;
+  padding-top: px;
+}
+/* Texto de contacto */
+.curriculum-contacto {
+  width: 80%;
+  margin: 5px auto;
+}
+.parrafo-2 {
+  width: 100%;
+}
+.curriculum-contacto .curriculum-texto {
+  font-size: 18px;
+}
+/* Curriculum derecho */
+.curriculum-der{
+  color: black;
+  padding-top: 140px;
+  background-color: #FFFFFF;
+}
+.curriculum-header {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+.curriculum-header h1 {
+  font-size: 53px;
+  margin-bottom: -5px;
+}
+.curriculum-header p {
+  letter-spacing: 0.08em;
+  font-size: 19px;
+  margin: 10px 0;
+}
+.curriculum-parrafo-der {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  letter-spacing: 0.08em;
+  font-size: 16px;
+}
+.curriculum-parrafo-der p {
+  margin-bottom: 8px;
+}
+.curriculum-parrafo-der p:first-of-type {
+  margin-top: 18px;
+}
+.curriculum-estudio {
+  margin-top: 15px;
+}
+.curriculum-parrafo-der > p > i {
+  font-size: 16px;
+}
+/* Seccion de contacto */
+/*Ingresar el link al font awesome y agregar los links necesarios*/
