@@ -1,38 +1,51 @@
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheet.css">
     <title>Lorenzo Busato</title>
+    <script src="https://kit.fontawesome.com/593d3a39f5.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Barra de navegación -->
     <nav class="navbar">
-      <h2 class="firma"><a href="">LB</a></h2>
-      <ul class="categorias">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#curriculum">Curriculum</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-      <ul class="links">
-        <li>
-          <a href="https://www.freecodecamp.org/LoloBusato" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
-          </a>
-        </li>
-        <li>
-          <a href="" target="_blank">
-            <i class="fa-solid fa-at"></i>
-          </a>
-        </li>
-      </ul>
+      <div class="prueba">
+        <div>
+          <label id="switch" class="switch">
+              <input type="checkbox" onchange="toggleLanguage()" id="slider">
+              <span class="slider round"></span>
+          </label>
+        </div>
+        <h2 class="firma"><a href="">LB</a></h2>
+      </div>
+      <div>
+        <ul class="categorias">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#curriculum">Curriculum</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="links">
+          <li>
+            <a href="https://github.com/LoloBusato" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=541161252839" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto: lorenzobusato07@gmail.com" target="_blank">
+              <i class="fa-solid fa-at"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- Sección de Inicio -->
     <section id="inicio">
@@ -46,166 +59,205 @@
     </section>
     <!-- Sección "Mis Proyectos" -->
     <section id="proyectos">
-      <h1 class="text-center">Mis proyectos</h1>
+      <h1 class="text-center"><u>These are some of my projects</u></h1>
       <div class="wrapper">
-          <div class="marco text-center">
-            <a href="https://lolobusato.github.io/25-5-Clock/" target="_blank" class="linkeado">
-              <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9" alt="gatitos">
-              <p>Gatitos</p>
-            </a>
-          </div>
-          <div class="marco text-center">
-            <a href="https://lolobusato.github.io/Drum-Machine/" target="_blank" class="linkeado">
-              <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9" alt="gatitos">
-              <p>Gatitos</p>
-            </a>
-          </div>
-          <div class="marco text-center">
-            <a href="https://lolobusato.github.io/JavaScript-Calculator/" target="_blank" class="linkeado">
-              <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9" alt="gatitos">
-              <p>Gatitos</p>
-            </a>
-          </div>
-          <div class="marco text-center">
-            <a href="https://lolobusato.github.io/Markdown-Previewer/" target="_blank" class="linkeado">
-              <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9" alt="gatitos">
-              <p>Gatitos</p>
-            </a>
-          </div>
         <div class="marco text-center">
-          <div class="marcos">
-            <a href="" target="_blank" class="linkeado">
-              <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9" alt="gatitos">
-              <p>Gatitos</p>
-            </a>
-          </div>
-          </div>
-          <div class="marco text-center">
-            <a href="" target="_blank" class="linkeado">
-              <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9" alt="gatitos">
-              <p>Gatitos</p>
-            </a>
-          </div>
+          <a href="https://codepen.io/LoloBusato/full/BaxYPXe" target="_blank" >
+            <img src="./Pictures/QuoteMachine.png" alt="Random Quote">
+            <p>Random Quote Machine</p>
+          </a>
+        </div>
+        <div class="marco text-center">
+          <a href="https://lolobusato.github.io/25-5-Clock/" target="_blank" >
+            <img src="./Pictures/Pomodoro.png" alt="Pomodoro">
+            <p>Pomodoro</p>
+          </a>
+        </div>
+        <div class="marco text-center">
+          <a href="https://lolobusato.github.io/Drum-Machine/" target="_blank" >
+            <img src="./Pictures/DrumMachine.png" alt="Drum Machine">
+            <p>Drum Machine</p>
+          </a>
+        </div>
+        <div class="marco text-center">
+          <a href="https://lolobusato.github.io/Markdown-Previewer/" target="_blank" >
+            <img src="./Pictures/Markdown.png" alt="Markdown Previewer">
+            <p>Markdown Previewer</p>
+          </a>
+        </div>
+        <div class="marco text-center">
+          <a href="https://lolobusato.github.io/JavaScript-Calculator/" target="_blank" >
+            <img src="./Pictures/Calculadora.png" alt="Calculator">
+            <p>Calculator</p>
+          </a>
+        </div>
+        <div class="marco text-center">
+          <a href="" target="_blank" >
+            <img src="./Pictures/Lorenzo.png" alt="Lorenzo WebPage">
+            <p>Lorenzo WebPage</p>
+          </a>
+        </div>
       </div>
     </section>
     <!-- Sección curriculum -->
     <section id="curriculum">
-      <div class="curriculum-izq">
-        <div class="curriculum-div">
-          <img id="curriculum-foto" src="" alt="Foto de perfil" />
-        </div>
-        <div class="parrafo">
-          <div class="curriculum-title">
-            <div class="arrow-box">
-              <div class="arrow"></div>
+      <div class="curriculum">
+        <div class="curriculum-izq">
+          <div class="curriculum-div">
+            <img id="curriculum-foto" src="./Pictures/ProfilePicture.jpg" alt="Foto de perfil" />
+          </div>
+          <div class="parrafo">
+            <div class="curriculum-title">
+              <div class="arrow-box">
+                <div class="arrow"></div>
+              </div>
+              <h2>PERFIL</h2>
             </div>
-            <h2>PERFIL</h2>
+            <p class="curriculum-texto">Técnico Superior con 2 años de experiencia en reparación de dispositivos electrónicos.<p>
+            <p class="curriculum-texto">Me encanta aprender cosas nuevas, soy una persona autodidactica y responsable.</p>
+            <p class="curriculum-texto">Busco un puesto en el que pueda emplear y ampliar mis conocimientos de programación.</p>
           </div>
-          <p class="curriculum-texto">Técnico Superior con 2 años de experiencia en reparación de dispositivos electrónicos.<p>
-          <p class="curriculum-texto">Me encanta aprender cosas nuevas, soy una persona autodidactica y responsable.</p>
-          <p class="curriculum-texto">Busco un puesto en el que pueda emplear y ampliar mis conocimientos de programación.</p>
-        </div>
-        <h2 class="curriculum-dots">.......................................................</h2>
-        <div class="parrafo-2">
-          <div class="curriculum-title">
-            <div class="arrow-box">
-              <div class="arrow"></div>
+          <p class="curriculum-dots">............................................</p>
+          <div class="parrafo-2">
+            <div class="curriculum-title">
+              <div class="arrow-box">
+                <div class="arrow"></div>
+              </div>
+              <h2>CONTACTO</h2>
             </div>
-            <h2>CONTACTO</h2>
-          </div>
-          <div class="curriculum-contacto">
-            <a href="" class="curriculum-texto">
-              <i class="fa-solid fa-phone" alt="phone"></i>
-              +54 9 11 6125 2839
-            </a>
-          </div>
-          <div class="curriculum-contacto">
-            <a href="" class="curriculum-texto">
-              <i class="fa-solid fa-envelope"></i>
-              lorenzobusato07@gmail.com
-            </a>
-          </div>
-          <div class="curriculum-contacto">
-            <a href="" class="curriculum-texto">
-              <i class="fa-solid fa-location-dot"></i>
-              Región: CABA o remoto
-            </a>
-          </div>
-          <div class="curriculum-contacto">
-            <a href="" class="curriculum-texto">
-              <i class="fa-solid fa-globe"></i>
-              www.
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Curriculum derecho -->
-      <div class="curriculum-der">
-        <div class="curriculum-header">
-          <h1>LORENZO BUSATO</h1>
-          <p><i>Estudiante de Licenciatura en Análisis de Sistemas</i></p>
-          <p><b>HTML, CSS</b></p>
-        </div>
-        <div>
-          <div class="curriculum-title">
-            <div class="arrow-box">
-              <div class="arrow"></div>
+            <div class="curriculum-contacto">
+              <a href="https://api.whatsapp.com/send?phone=541161252839" class="curriculum-texto" target="_blank">
+                <i class="fa-solid fa-phone" alt="phone"></i>
+                +54 9 11 6125 2839
+              </a>
             </div>
-            <h2>EXPERIENCIA LABORAL</h2>
-          </div>
-          <div class="curriculum-parrafo-der">
-            <p><b>TÉCNICO ESPECIALIZADO EN APPLE</b></p>
-            <p><i>2020-actualidad</i></p>
-            <p>TheDoniPhone</p>
-            <p>Servicio técnico especializado en reparación de MacBook, iPhone, iPad tanto de periféricos como microsoldadura.</p>
+            <div class="curriculum-contacto">
+              <a href="mailto: lorenzobusato07@gmail.com" class="curriculum-texto" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                lorenzobusato07@gmail.com
+              </a>
+            </div>
+            <div class="curriculum-contacto">
+              <a href="https://www.google.com/maps/place/Buenos+Aires,+CABA/@-34.6158238,-58.4332985" class="curriculum-texto" target="_blank">
+                <i class="fa-solid fa-location-dot"></i>
+                Región: CABA o remoto
+              </a>
+            </div>
+            <div class="curriculum-contacto">
+              <a href="" class="curriculum-texto" target="_blank">
+                <i class="fa-solid fa-globe"></i>
+                www.
+              </a>
+            </div>
           </div>
         </div>
-        <div>
-          <div class="curriculum-title">
-            <div class="arrow-box">
-              <div class="arrow"></div>
+        <!-- Curriculum derecho -->
+        <div class="curriculum-der">
+          <div class="curriculum-header">
+            <h1>LORENZO BUSATO</h1>
+            <p><i>Estudiante de Licenciatura en Análisis de Sistemas</i></p>
+            <p><b>HTML, CSS, JavaScript, Bootstrap, React, Redux</b></p>
+          </div>
+          <div>
+            <div class="curriculum-title">
+              <div class="arrow-box">
+                <div class="arrow"></div>
+              </div>
+              <h2>EXPERIENCIA LABORAL</h2>
             </div>
-            <h2>ESTUDIOS</h2>
-          </div>
-          <div class="curriculum-parrafo-der">
-            <p><b>LICENCIATURA EN ANÁLISIS DE SISTEMAS</b></p>
-            <p><i>2022-actualidad</i></p>
-            <p>Universidad de Buenos Aires</p>
-            <p class="curriculum-estudio"><b>TÉCNICO EN ELECTRÓNICA</b></p>
-            <p><i>2015-2020</i></p>
-            <p>Escuela Técnica N’28 D.E. 10 “República Francesa”</p>
-          </div>
-        </div>
-        <div>
-          <div class="curriculum-title">
-            <div class="arrow-box">
-              <div class="arrow"></div>
+            <div class="curriculum-parrafo-der">
+              <p><b>TÉCNICO ESPECIALIZADO EN APPLE</b></p>
+              <p><i>2020-actualidad</i></p>
+              <p>TheDoniPhone</p>
+              <p>Servicio técnico especializado en reparación de MacBook, iPhone, iPad tanto de periféricos como microsoldadura.</p>
             </div>
-            <h2>CURSOS</h2>
           </div>
-          <div class="curriculum-parrafo-der">
-            <p><b>RESPONSIVE WEB DESIGN</b></p>
-            <p>FreeCodeCamp</p>
-            <p>Curso de programación en HTML y CSS de 300hs de duración.</p>
-          </div>
-        </div>
-        <div>
-          <div class="curriculum-title">
-            <div class="arrow-box">
-              <div class="arrow"></div>
+          <div>
+            <div class="curriculum-title">
+              <div class="arrow-box">
+                <div class="arrow"></div>
+              </div>
+              <h2>ESTUDIOS</h2>
             </div>
-            <h2>IDIOMAS</h2>
+            <div class="curriculum-parrafo-der">
+              <p><b>LICENCIATURA EN ANÁLISIS DE SISTEMAS</b></p>
+              <p><i>2022-actualidad</i></p>
+              <p>Universidad de Buenos Aires</p>
+              <p class="curriculum-estudio"><b>TÉCNICO EN ELECTRÓNICA</b></p>
+              <p><i>2015-2020</i></p>
+              <p>Escuela Técnica N’28 D.E. 10 “República Francesa”</p>
+            </div>
           </div>
-          <div class="curriculum-parrafo-der">
-            <p><b>INGLES</b> - ALTO.</p>
-            <p><b>ESPAÑOL</b> - NATIVO.</p>
+          <div>
+            <div class="curriculum-title">
+              <div class="arrow-box">
+                <div class="arrow"></div>
+              </div>
+              <h2>CURSOS</h2>
+            </div>
+            <div class="curriculum-parrafo-der">
+              <p><b>RESPONSIVE WEB DESIGN</b></p>
+              <p>FreeCodeCamp</p>
+              <p>Curso de programación sobre HTML y CSS de 300hs de duración.</p>
+            </div>
+            <div class="curriculum-parrafo-der">
+              <p><b>JavaScript Algorithms and Data Structures</b></p>
+              <p>FreeCodeCamp</p>
+              <p>Curso de programación sobre JavaScript de 300hs de duración.</p>
+            </div>
+            <div class="curriculum-parrafo-der">
+              <p><b>Front End Development Libraries</b></p>
+              <p>FreeCodeCamp</p>
+              <p>Curso de programación sobre librerias FrontEnd de 300hs de duración.</p>
+            </div>
+          </div>
+          <div>
+            <div class="curriculum-title">
+              <div class="arrow-box">
+                <div class="arrow"></div>
+              </div>
+              <h2>IDIOMAS</h2>
+            </div>
+            <div class="curriculum-parrafo-der">
+              <p><b>INGLES</b> - ALTO.</p>
+              <p><b>ESPAÑOL</b> - NATIVO.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Sección de contacto -->
     <section id="contacto">
-
+      <div class="contact-header">
+        <h1>Let's work together...</h1>
+        <p>What kind of music do you like?</p>
+      </div>
+      <div class="contact-links">
+        <a id="profile-link" href="https://github.com/LoloBusato" target="_blank">
+          <i class="fab fa-github"></i>
+          GitHub
+        </a>
+        <a href="mailto: lorenzobusato07@gmail.com" target="_blank">
+          <i class="fas fa-at"></i>
+          Send a mail
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=541161252839" target="_blank">
+          <i class="fas fa-mobile-alt"></i>
+          Call me
+        </a>
+        <a href="www.linkedin.com/in/lorenzo-busato" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          Linkedin
+        </a>
+      </div>
     </section>
+    <footer>
+      <p>© Created by <a href="" class="freecode">Lorenzo Busato</a></p>
+    </footer>
+    <script>
+      function toggleLanguage(){
+        
+      }
+    </script>
   </body>
 </html>
