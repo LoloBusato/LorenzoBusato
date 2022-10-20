@@ -1,0 +1,178 @@
+* {
+  margin:0;padding:0;font-size: 20px;font-family: system-ui;
+}
+body {
+  background-color:white;
+}
+.curriculum-texto {
+  text-decoration: none;
+}
+.curriculum-texto:hover {
+  color: #F1F6F9;
+}
+#curriculum {
+  padding: 40px 0;
+  margin: 0;
+}
+.curriculum {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1100px;
+  border: 1px solid #000035;
+}
+.curriculum-izq{
+  background-color: #9AADCF;
+  width: 40%;
+}
+/* Curriculum Foto */
+.curriculum-div {
+  width: 75%;
+  margin: 0 auto;
+}
+#curriculum-foto {
+  margin: 50px 0;
+  width: 100%;
+}
+/* Texto de perfil */
+.curriculum-title {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  color: #004AAD;
+}
+.arrow-box {
+  width: 10px;
+}
+.arrow {
+  margin-top: 6px;
+  transform: rotate(90deg);
+  border-bottom: 16px solid #004AAD;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.curriculum-title h2 {
+  margin-left: 20px;
+}
+.separo {
+  margin-top: 20px;
+}
+.parrafo {
+  width: 100%;
+}
+.curriculum-texto {
+  width: 80%;
+  margin: 20px auto;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.08em;
+  text-transform: none;
+  line-height: 24px;
+}
+/* Separación */
+.curriculum-dots {
+  font-size: 60px;
+  width: 80%;
+  margin: -35px auto 30px auto;
+  overflow-x: hidden;
+  color: #004AAD;
+  justify-content: center;
+}
+/* Texto de contacto */
+.curriculum-contacto {
+  width: 80%;
+  margin: 5px auto;
+}
+.parrafo-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+.webpage {
+  font-size: 17px;
+}
+/* Curriculum derecho */
+.curriculum-der{
+  color: black;
+  padding: 120px 0px 40px 0px;
+  background-color: #F1F6F9;
+}
+.curriculum-header {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+.curriculum-header h1 {
+  font-size: 53px;
+  margin-bottom: -5px;
+}
+.curriculum-header p {
+  letter-spacing: 0.08em;
+  margin: 10px 0;
+}
+.curriculum-parrafo-der {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  letter-spacing: 0.08em;
+}
+.curriculum-parrafo-der p {
+  margin-bottom: 8px;
+}
+.curriculum-parrafo-der p:first-of-type {
+  margin-top: 18px;
+}
+.foto-img-2 {
+  display: none;
+}
+@media (max-width: 900px){
+  .curriculum-contacto .curriculum-texto{
+    font-size: 14px;
+  }
+}
+@media (max-width: 740px){
+  .curriculum-contacto .curriculum-texto{
+    font-size: 11px;
+  }
+}
+@media (max-width: 576px) {
+  .curriculum-contacto .curriculum-texto{
+    font-size: 20px;
+  }
+  .foto-img-1{
+    display: none;
+  }
+  .foto-img-2{
+    display: block;
+  }
+  .curriculum {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .curriculum-izq{
+    width: 100%;
+    grid-row: 2;
+  }
+  .parrafo-2 {
+    margin-bottom: 50px;
+  }
+  .curriculum-der{
+    padding-top: 60px;
+  }
+  .parrafo {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 425px){
+  .curriculum-contacto .curriculum-texto{
+    font-size: 16px;
+  }
+}
+@media (max-width: 340px){
+  .curriculum-contacto .curriculum-texto{
+    font-size: 14px;
+  }
+}
+@media (max-width: 300px){
+  .curriculum-contacto .curriculum-texto{
+    font-size: 12px;
+  }
+}

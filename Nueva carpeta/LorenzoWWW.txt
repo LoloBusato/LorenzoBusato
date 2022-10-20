@@ -1,0 +1,434 @@
+CSS
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  margin: 0;
+}
+body {
+  font-size:  10px;
+  color: #FFFFFF;
+}
+ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/* Barra navegadora */
+.navbar {
+  background: linear-gradient(
+    -90deg,
+    #000035,
+    #062863
+   );
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 2em;
+  z-index: 1;
+}
+/* Barra navegadora firma */
+.firma{
+  display: flex;
+  width: 18.25vw;
+  justify-content: center;
+  align-items: center;
+}
+/* Barra navegadora secciones */
+.categorias {
+  width: 63.5vw;
+  display: flex;
+}
+.categorias li{
+    margin: auto 3rem;
+}
+/* Barra navegadora redes sociales */
+.links{
+  width: 18.25vw;
+  display: flex;
+  justify-content: center;
+}
+.links li{
+  margin: auto 10px;
+}
+/* Página de Inicio */
+#inicio {
+  background: linear-gradient(
+    -90deg,
+    #000035,
+    #062863
+   );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner {
+  font-size: 30px;
+  margin: 0 20px;
+}
+.conteiner h2{
+  font-size: 30px;
+  justify-content: center;
+}
+.foto-principal {
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #FFF;
+  height:  200px;
+}
+/* Proyectos */
+#proyectos {
+  text-align: center;
+  color: #062863;
+}
+#proyectos h2{
+  font-size: 40px;
+  margin: 20px 0;
+}
+.mural {
+  display: grid;
+  grid-template-columns: 30vw 30vw;
+  justify-content: space-around;
+}
+.project-image {
+  height: calc(100% - 20px);
+  width: 100%;
+  object-fit: cover;
+}
+.project-tile {
+  background-color: gray;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.project-title {
+  color: #00008B;
+  font-size: 20px;
+  z-index: 10;
+}
+/* Curriculum */
+#curriculum {
+  width: 840px;
+  height: 1138px;
+  margin: 0 auto;
+  display: flex;
+}
+.curriculum-izq{
+  background-color: #9aadcf;
+  width: 41%;
+  height: 100%;
+}
+/* Curriculum Foto */
+.curriculum-div {
+  width: 75%;
+  margin: 0 auto;
+}
+#curriculum-foto {
+  margin: 50px 0;
+  width: 100%;
+}
+/* Texto de perfil */
+.parrafo {
+  margin: 0;
+}
+.curriculum-title {
+  font-size: 10px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  color: #004AAD;
+}
+.arrow-box {
+  width: 10px;
+}
+.arrow {
+  margin-top: 3px;
+  margin-rigth: 10px;
+  transform: rotate(90deg);
+  border-bottom: 16px solid #004AAD;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.curriculum-title h2 {  
+  margin-left: 22px;
+  font-size: 20px;
+}
+.parrafo {  
+  width: 100%;
+  margin-top: 30px;
+}
+.curriculum-texto {  
+  width: 80%;
+  margin: 20px auto;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: none;
+  line-height: 24px;
+}
+.parrafo p:first-of-type {  
+  margin: 3px auto 0 auto;
+}
+/* Separación */
+.curriculum-dots {  
+  font-size: 30px;
+  letter-spacing: 0.08em;
+  width: 80%;  
+  margin: 0 auto;
+  margin-bottom: 30px;
+  overflow-x: hidden;
+  color: #004AAD;
+  padding-top: px;
+}
+/* Texto de contacto */
+.curriculum-contacto {
+  width: 80%;
+  margin: 5px auto;
+}
+.parrafo-2 {
+  width: 100%;
+}
+.curriculum-contacto .curriculum-texto {
+  font-size: 18px;
+}
+/* Curriculum derecho */
+.curriculum-der{
+  color: black;
+  padding-top: 140px;
+  background-color: #FFFFFF;
+}
+.curriculum-header {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+.curriculum-header h1 {
+  font-size: 53px;
+  margin-bottom: -5px;
+}
+.curriculum-header p {
+  letter-spacing: 0.08em;
+  font-size: 19px;
+  margin: 10px 0;
+}
+.curriculum-parrafo-der {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  letter-spacing: 0.08em;
+  font-size: 16px;
+}
+.curriculum-parrafo-der p {
+  margin-bottom: 8px;
+}
+.curriculum-parrafo-der p:first-of-type {
+  margin-top: 18px;
+}
+.curriculum-estudio {
+  margin-top: 15px;
+}
+.curriculum-parrafo-der > p > i {
+  font-size: 16px;
+}
+/* Seccion de contacto */
+/*Ingresar el link al font awesome y agregar los links necesarios*/
+_____________________________________________________________________________________________
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página personal</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+</head>
+<body>
+<!-- Start your code here -->
+  <nav class="navbar">
+    <h2 class="firma"><a href="">LB</a></h2>
+    <ul class="categorias">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <ul class="links">
+      <li>
+        <a href="https://www.freecodecamp.org/LoloBusato" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" target="_blank">
+          <i class="fa-solid fa-at"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <section id="inicio">
+    <div class="conteiner">
+      <img class="foto-principal" src="https://pps.whatsapp.net/v/t61.24694-24/158952461_728690624600517_4474170796839676019_n.jpg?ccb=11-4&oh=01_AVzMxi3_6v94GWPuvXazhSr_uPMfGAKNEoorVApeIjNSYw&oe=62EC8443" alt="Foto de Perfil" />
+    </div>
+    <div class="conteiner">
+    <h1>Lorenzo Busato</h1>
+    <h2>Programador Web</h2>
+    </div>
+  </section>
+  <section id="animacion"> 
+    
+  </section>
+  <section id="proyectos">
+    <h2>Estos son algunos de mis proyectos</h2>
+    <div class="mural">
+        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project-tile">
+          <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="project">
+          <p class="project-title">
+            Tribute Page
+          </p>
+        </a>
+        <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project-tile">
+          <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="project">
+          <p class="project-title">
+            Random Quote Machine
+          </p>
+        </a>
+        <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project-tile">
+          <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project">
+          <p class="project-title">
+            JavaScript Calculator
+          </p>
+        </a>
+    </div>
+  </section>
+  <section id="curriculum">
+    <div class="curriculum-izq">
+      <div class="curriculum-div">
+        <img id="curriculum-foto" src="https://pps.whatsapp.net/v/t61.24694-24/158952461_728690624600517_4474170796839676019_n.jpg?ccb=11-4&oh=01_AVzV4ArpkblxWKz8U0lkTe5kDv6E3dnCGhY0CN3ctGwbuA&oe=62F0E943" alt="Foto de perfil" />
+      </div>
+      <div class="parrafo">
+        <div class="curriculum-title">
+          <div class="arrow-box">
+            <div class="arrow"></div>
+          </div>
+          <h2>PERFIL</h2>
+        </div>
+        <p class="curriculum-texto">Técnico Superior con 2 años de experiencia en reparación de dispositivos electrónicos.
+</p>
+        <p class="curriculum-texto">Me encanta aprender cosas nuevas, soy una persona autodidactica y responsable.
+</p>
+        <p class="curriculum-texto">Busco un puesto en el que pueda emplear y ampliar mis conocimientos de programación.</p>
+      </div>
+      <h2 class="curriculum-dots">.......................................................</h2>
+      <div class="parrafo-2">
+        <div class="curriculum-title">
+          <div class="arrow-box">
+            <div class="arrow"></div>
+          </div>
+          <h2>CONTACTO</h2>
+        </div>
+        <div class="curriculum-contacto">
+          <a href="" class="curriculum-texto">
+            <i class="fa-solid fa-phone" alt="phone"></i>
+            +54 9 11 6125 2839
+          </a>
+        </div>
+        <div class="curriculum-contacto">
+          <a href="" class="curriculum-texto">
+            <i class="fa-solid fa-envelope"></i>
+            lorenzobusato07@gmail.com
+          </a>
+        </div>
+        <div class="curriculum-contacto">
+          <a href="" class="curriculum-texto">
+            <i class="fa-solid fa-location-dot"></i>
+            Región: CABA o remoto
+          </a>
+        </div>
+        <div class="curriculum-contacto">
+          <a href="" class="curriculum-texto">
+            <i class="fa-solid fa-globe"></i>
+            www.
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Curriculum derecho -->
+    <div class="curriculum-der">
+      <div class="curriculum-header">
+        <h1>LORENZO BUSATO</h1>
+        <p><i>Estudiante de Licenciatura en Análisis de Sistemas</i></p>
+        <p><b>HTML, CSS</b></p>
+      </div>
+      <div>
+        <div class="curriculum-title">
+          <div class="arrow-box">
+            <div class="arrow"></div>
+          </div>
+          <h2>EXPERIENCIA LABORAL</h2>
+        </div>
+        <div class="curriculum-parrafo-der">
+          <p><b>TÉCNICO ESPECIALIZADO EN APPLE</b></p>
+          <p><i>2020-actualidad</i></p>
+          <p>TheDoniPhone</p>
+          <p>Servicio técnico especializado en reparación de MacBook, iPhone, iPad tanto de periféricos como microsoldadura.</p>
+        </div>
+      </div>
+      <div>
+        <div class="curriculum-title">
+          <div class="arrow-box">
+            <div class="arrow"></div>
+          </div>
+          <h2>ESTUDIOS</h2>
+        </div>
+        <div class="curriculum-parrafo-der">
+          <p><b>LICENCIATURA EN ANÁLISIS DE SISTEMAS</b></p>
+          <p><i>2022-actualidad</i></p>
+          <p>Universidad de Buenos Aires</p>
+          <p class="curriculum-estudio"><b>TÉCNICO EN ELECTRÓNICA</b></p>
+          <p><i>2015-2020</i></p>
+          <p>Escuela Técnica N’28 D.E. 10 “República Francesa”</p>
+        </div>
+      </div>
+      <div>
+        <div class="curriculum-title">
+          <div class="arrow-box">
+            <div class="arrow"></div>
+          </div>
+          <h2>CURSOS</h2>
+        </div>
+        <div class="curriculum-parrafo-der">
+          <p><b>RESPONSIVE WEB DESIGN</b></p>
+          <p>FreeCodeCamp</p>
+          <p>Curso de programación en HTML y CSS de 300hs de duración.</p>
+        </div>
+      </div>
+      <div>
+        <div class="curriculum-title">
+          <div class="arrow-box">
+            <div class="arrow"></div>
+          </div>
+          <h2>IDIOMAS</h2>
+        </div>
+        <div class="curriculum-parrafo-der">
+          <p><b>INGLES</b> - ALTO.</p>
+          <p><b>ESPAÑOL</b> - NATIVO.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contacto">
+  
+  </section>
+<!-- End your code here -->
+</body>
+</html>
