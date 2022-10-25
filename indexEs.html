@@ -1,0 +1,185 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="/pictures/favicon.ico">
+    <title>Lorenzo Busato</title>
+    <script src="https://kit.fontawesome.com/593d3a39f5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+      <div class="prueba">
+        <div>
+          <label id="switch" class="switch">
+              <input type="checkbox" id="slider">
+              <span class="slider round"></span>
+          </label>
+        </div>
+        <a href=""><h2 class="firma">LB</h2></a>
+      </div>
+      <div class="menu-completo">
+      <button class="open-menu" aria-label="Abrir menú" onClick="toggleMenu()" >
+        <img src="./pictures/Hamburger.png" alt="abrir menú" class="hamburgerIcon" />
+      </button>
+      <div>
+        <ul class="categorias">
+          <button class="close-menu" aria-label="Close menú" onClick="toggleMenu()" >
+            <div>
+              <img src="./pictures/close.png" alt="Close menú" class="closeIcon"/>
+            </div>
+          </button>
+        </ul>
+      </div>
+      </div>
+      <div>
+        <ul class="linksNav">
+          <li>
+            <a href="https://github.com/LoloBusato" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=541161252839" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto: lorenzobusato07@gmail.com" target="_blank">
+              <i class="fa-solid fa-at"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+      <div class="inicio">
+        <div class="conteiner">
+          <img class="foto-principal" src="./Pictures/ProfilePicture2.jpg" alt="Foto de Perfil" />
+        </div>
+        <div class="conteiner">
+          <h1>Lorenzo Busato</h1>
+          <h2 id="inicio-subtitulo"></h2>
+        </div>
+      </div>
+    </section>
+    <!-- Sección de About -->
+    <section id="about">
+      <div class="about">
+        <div class="about-informacion text-center">
+          <h2 id="about-titulo"></h2>
+          <p id="about-subtitulo"></p>
+        </div>
+        <div class="about-skills text-center">
+          <h2 id="about-skills-titulo"></h2>
+          <div class="skills">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sección "Mis Proyectos" -->
+    <section id="proyectos">
+      <div class="titulo">
+        <h1 id="proyectos-titulo"></h1>
+      </div>
+      <div class="wrapper"></div>
+    </section>
+    <!-- Sección curriculum -->
+    <section id="curriculum">
+      <div class="text-center">
+        <p>Puedes descargar mi Curriculum en <a href="./CurriculumPDF/LorenzoBusatoCurriculumEspañol.pdf" class="curriculumLink" target="_blank">Español Aquí</a> o en <a href="./CurriculumPDF/LorenzoBusatoCurriculumIngles.pdf" class="curriculumLink" target="_blank">Inglés Aquí</a>.</p>
+      </div>
+      <div class="curriculum">
+        <div class="curriculum-izq">
+          <div class="curriculum-div">
+            <img class="foto-img-1" id="curriculum-foto" src="./Pictures/ProfilePicture.jpg" alt="Foto de perfil" />
+          </div>
+          <div class="parrafo" id="parrafo">
+              <div class="separo"></div>
+          </div>
+          <p class="curriculum-dots">............................................</p>
+          <div class="parrafo-2" id="parrafo-2">
+          </div>
+        </div>
+          <!-- Curriculum derecho -->
+        <div class="curriculum-der">
+          <div class="curriculum-header">
+            <h1>LORENZO BUSATO</h1>
+            <p><i id="curriculum-studies"></i></p>
+            <p><b>HTML, CSS, JavaScript, Bootstrap, React, Redux</b></p>
+          </div>
+          <div class="curriculum-div">
+            <img class="foto-img-2" id="curriculum-foto" src="./Pictures/ProfilePicture.jpg" alt="Foto de perfil" />
+          </div>
+          <div id="experienciaLaboral">
+          </div>
+          <div id="estudios">
+          </div>
+          <div id="cursos">
+          </div>
+          <div id="idiomas">
+            <div class="curriculum-parrafo-der">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sección de contacto -->
+    <section id="contacto">
+      <div class="contact-conteiner">
+        <div class="contact-header">
+        </div>
+        <div class="contact-links"></div>
+      </div>
+    </section>
+    <footer>
+      <p id="footer-text"></p>
+    </footer>
+    <script src="app.js"></script>
+    <script>
+      linksNavBarEs.forEach(({href, text}) => createNavBar(href, text));
+      document.querySelector("#inicio-subtitulo").innerHTML = inicioSubtituloEs;
+
+      document.querySelector("#about-titulo").innerHTML = aboutTituloEs;
+      document.querySelector("#about-subtitulo").innerHTML = aboutInformacionEs;
+
+      document.querySelector("#about-skills-titulo").innerHTML = aboutSkillsTituloEs;
+      infoSeccionAbout.forEach(({info, foto}) => aboutSeccion(info, foto));
+
+      document.querySelector("#proyectos-titulo").innerHTML = proyectosTituloEs;
+      proyectosUnitEs.forEach(({hrefPage ,hrefRep ,text}) => createImageProyect(hrefPage ,hrefRep ,text));
+
+      curriculumTitle("#parrafo", "PERFIL");
+      curriculumTitle("#parrafo-2", "CONTACTO");
+      document.querySelector("#curriculum-studies").innerHTML = curriculumStudiesEs;
+      curriculumTitle("#experienciaLaboral", "EXPERIENCIA LABORAL");
+      curriculumTitle("#estudios", "ESTUDIOS");
+      curriculumTitle("#cursos", "CURSOS");
+      curriculumTitle("#idiomas", "IDIOMAS");
+      infoContacto.forEach(({info, img1, img2, href}) => contacto(info, img1, img2, href));
+      infoEstudiosEs.forEach(({title, lugar, text}) => {
+        estudios.append(informacion(title,lugar,text));
+      });
+      infoCursosEs.forEach(({title, lugar, text}) => {
+        cursos.append(informacion(title,lugar,text));
+      });
+      infoExperienciaLaboralEs.forEach(({title, lugar, empresa, text}) => {
+        experienciaLaboral.append(informacionExperiencia(title, lugar, empresa, text));
+      });
+      biografiaEs.forEach(({infoMe}) => {
+        biografiasText.append(createP(infoMe));
+      });
+
+      languagesEs.forEach(({idioma, nivel}) => escrituraLenguajes(idioma, nivel));
+
+      contactoTextoInfoEs.forEach(({titulo, subtitulo}) => createContactoTexto(titulo, subtitulo));
+      infoSeccionContactoEs.forEach(({info, img1, img2, href}) => contactoSeccion(info, img1, img2, href));
+
+      document.querySelector("#footer-text").innerHTML = footerTextEs;
+    </script>
+    <script src="Navbar.js"></script>
+  </body>
+</html>
