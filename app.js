@@ -15,7 +15,7 @@ const linksNavBarEn = [
   {href: "#inicio", text: "Home"},
   {href: "#about", text: "About"},
   {href: "#proyectos", text: "Projects"},
-  {href: "#curriculum", text: "CV"},
+  {href: "#curriculum", text: "Resume"},
   {href: "#contacto", text: "Contact"}
 ];
 //-------------------//
@@ -177,7 +177,7 @@ const infoEstudiosEs = [
   {title: "TÉCNICO EN ELECTRÓNICA", lugar: "2015-2020", text: 'Escuela Técnica N°28 D.E. 10 "República Francesa"'}
 ];
 const infoEstudiosEn = [
-  {title: "DEGREE IN SYSTEMS ANALYSIS", lugar: "2022-present", text: "Buenos Aires University"},
+  {title: "BACHELOR DEGREE IN SYSTEMS ANALYSIS", lugar: "2022-present", text: "Buenos Aires University"},
   {title: "ELECTRONICS TECHNICIAN", lugar: "2015-2020", text: 'Technical School N°28 D.E. 10 "Republic of France"'}
 ];
 //------------------//
@@ -191,6 +191,18 @@ const infoCursosEn = [
   {title: "JavaScript Algorithms and Data Structures", lugar: "FreeCodeCamp", text: "Programming course on JavaScript of 300 hours of duration."},
   {title: "FrontEnd Development Libraries", lugar: "FreeCodeCamp", text: "Programming course on FrontEnd libraries of 300 hours duration."}
 ];
+
+let languagesEs = [
+  {idioma: "INGLES", nivel: " - ALTO."},
+  {idioma: "ESPAÑOL", nivel: " - NATIVO."}
+];
+let languagesEn = [
+  {idioma: "ENGLISH", nivel: " - FLUID."},
+  {idioma: "SPANISH", nivel: " - NATIVE."}
+];
+
+let curriculumStudiesEs = "Estudiante de Licenciatura en Análisis";
+let curriculumStudiesEn = "Student of Bachelor Degree in Systems Analysis";
 //----------------------//
 
 let listaContacto = document.querySelector('.parrafo-2');
@@ -247,7 +259,7 @@ function informacionExperiencia(title, lugar, empresa, text) {
   let i = document.createElement("i");
   div.classList.add("curriculum-parrafo-der");
   b.innerHTML = title;
-  i.innetHTML = lugar;
+  i.innerHTML = lugar;
   p3.innerHTML = empresa;
   p4.innerHTML = text;
   p1.append(b);
@@ -276,14 +288,6 @@ function curriculumTitle(clase, texto) {
 
 let lenguajesContenedor = document.querySelector(".curriculum-parrafo-der");
 
-let languagesEs = [
-  {idioma: "INGLES", nivel: " - ALTO."},
-  {idioma: "ESPAÑOL", nivel: " - NATIVO."}
-];
-let languagesEn = [
-  {idioma: "ENGLISH", nivel: " - FLUID."},
-  {idioma: "SPANISH", nivel: " - NATIVE."}
-];
 function escrituraLenguajes(idioma, nivel){
   let p = document.createElement("p");
   let b = document.createElement("b");
@@ -292,11 +296,6 @@ function escrituraLenguajes(idioma, nivel){
   p.prepend(b);
   lenguajesContenedor.append(p);
 }
-
-//--------------------------------------------------------------------------//
-
-//Seccion About//
-
 let biografiasText = document.querySelector('.separo');
 
 function createP(infoMe) {
@@ -305,6 +304,11 @@ function createP(infoMe) {
   p.classList.add("curriculum-texto");
   return p
 }
+
+
+//--------------------------------------------------------------------------//
+
+//Seccion About//
 
 let aboutSkills = document.querySelector('.skills');
 
@@ -358,13 +362,11 @@ let inicioSubtituloEn = "FrontEnd Developer";
 let aboutTituloEs = "¡Hola mundo!";
 let aboutTituloEn = "Hello world!";
 let aboutInformacionEs = "Me llamo Lorenzo Busato y soy técnico en electrónica. Me encuentro cursando la carrera de licenciatura en análisis de sistemas. Además, soy programador autodidacta, actualmente enfocado en FrontEnd, y adquiriendo nuevos conocimientos día a día.</br>Esta es mi página web que refleja mis habilidades actuales, bienvenidos!";
-let aboutInformacionEn = "I am Lorenzo Busato an Electronics Technician. I am studying a degree in systems analysis. Also, I am a self-taught programmer, currently focused on FrontEnd, and acquiring new knowledge day by day.</br>This is my web page reflecting my current skills, welcome!";
+let aboutInformacionEn = "My name is Lorenzo Busato, I am an Electronics Technician and I am studying for a bachelor degree in Systems Analysis. Also, I am a self-taught programmer, currently focused on FrontEnd, and acquiring new knowledge day by day.<br />This is my portfolio reflecting my current skills. Welcome!";
 let aboutSkillsTituloEs = "Habilidades";
 let aboutSkillsTituloEn = "Skills";
 let proyectosTituloEs = "Estos son algunos de mis proyectos";
 let proyectosTituloEn = "These are some of my projects";
-let curriculumStudiesEs = "Estudiante de Licenciatura en Análisis";
-let curriculumStudiesEn = "Student in Systems Analysis";
 let footerTextEs = "© Creado por Lorenzo Busato";
 let footerTextEn = "© Created by Lorenzo Busato";
 
