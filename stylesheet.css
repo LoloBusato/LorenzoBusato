@@ -414,7 +414,8 @@ input:checked + .slider:before {
 .curriculum {
   margin: 0 auto;
   display: flex;
-  max-width: 1100px;
+  max-width: 1200px;
+  flex-wrap: wrap;
   border: 1px solid #000035;
 }
 .curriculum-izq{
