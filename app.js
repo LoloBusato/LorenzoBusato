@@ -192,10 +192,10 @@ const infoCursosEs = [
 const infoCursosEn = [
   {title: "Responsive Web Design", lugar: "freeCodeCamp", text:"Programming course on HTML and CSS to make responsive web design pages of 300 hours of duration."},
   {title: "Relational Database", lugar: "freeCodeCamp", text: "Programming course using the terminal with Bash, PostfreSQL and Git to make interactive programs saving the information in database based on SQL with an version control system. Duration: 300hs."},
-  {title: "Back End Development and APIs", lugar: "freeCodeCamp", text: "Programming course about Back End with Node.js using the framework Express creating microservices and saving the data in database noSQL with MongoDB of 300hs duration."}
+  {title: "Back End Development and APIs", lugar: "freeCodeCamp", text: "Programming course about Back End with Node.js using the framework Express creating microservices and saving the data in database noSQL with MongoDB of 300hs duration."},
   {title: "JavaScript Algorithms and Data Structures", lugar: "freeCodeCamp", text: "Programming course on JavaScript about the fundamental basis, the interactive Front End, as well as OOP and FP of 300 hours duration."},
   {title: "FrontEnd Development Libraries", lugar: "freeCodeCamp", text: "Programming course on FrontEnd libraries such as, Bootstrap, Sass, jQuery and the libraries React and Redux of 100 hours duration."},
-  {title: "Data Visualization", lugar: "freeCodeCamp", text: "Programming course about data visualization with the D3.js library of 100hs duration."},
+  {title: "Data Visualization", lugar: "freeCodeCamp", text: "Programming course about data visualization with the D3.js library of 100hs duration."}
 ];
 
 let languagesEs = [
