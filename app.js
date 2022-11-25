@@ -162,7 +162,7 @@ const infoContacto = [
   {info: " +54 9 11 6125 2839", img1: "fa-solid", img2: "fa-phone", href: "https://api.whatsapp.com/send?phone=541161252839"},
   {info: " lorenzobusato07@gmail.com", img1: "fa-solid", img2: "fa-envelope", href: "mailto: lorenzobusato07@gmail.com"},
   {info: " Buenos Aires, Argentina", img1: "fa-solid", img2: "fa-location-dot", href: "https://www.google.com/maps/place/Buenos+Aires,+CABA/@-34.6158238,-58.4332985"},
-  {info: " lolobusato.github.io/LorenzoBusato/indexEn", img1: "fa-solid", img2: "fa-globe", href: "https://lolobusato.github.io/LorenzoBusato/indexEn"}
+  {info: " lolobusato.github.io/ LorenzoBusato/indexEn", img1: "fa-solid", img2: "fa-globe", href: "https://lolobusato.github.io/LorenzoBusato/indexEn"}
 ];
 //------------------//
 const infoExperienciaLaboralEs = [
@@ -182,14 +182,20 @@ const infoEstudiosEn = [
 ];
 //------------------//
 const infoCursosEs = [
-  {title: "RESPONSIVE WEB DESIGN", lugar: "FreeCodeCamp", text:"Curso de programación sobre HTML y CSS de 300hs de duración."},
-  {title: "JavaScript Algorithms and Data Structures", lugar: "FreeCodeCamp", text: "Curso de programación sobre JavaScript de 300hs de duración."},
-  {title: "FrontEnd Development Libraries", lugar: "FreeCodeCamp", text: "Curso de programación sobre librerias FrontEnd de 300hs de duración."}
+  {title: "Responsive Web Design", lugar: "freeCodeCamp", text:"Curso de programación utilizando HTML y CSS para crear páginas web tanto estáticas como dinámicas de 300hs de duración."},  
+  {title: "Relational Database", lugar: "freeCodeCamp", text: "Curso de programación en la terminal utilizando Bash, PostgreSQL y Git para poder realizar programas interactivos con almacenamiento en bases de datos y un sistema de control de versiones. Duración: 300hs."},
+  {title: "Back End Development and APIs", lugar: "freeCodeCamp", text: "Curso de programación Back End utilizando Node.js con el framework Espress por medio de microservicios y almacenando datos en bases no relacionales con MongoDB de 300hs de duración."},
+  {title: "JavaScript Algorithms and Data Structures", lugar: "freeCodeCamp", text: "Curso de programación en JavaScript orientado a las bases fundamentales, el Front End interactivo, así como OOP y FP de 300hs de duración."},
+  {title: "FrontEnd Development Libraries", lugar: "freeCodeCamp", text: "Curso de programación sobre librerias FrontEnd tales como, Bootstrap, Sass, jQuery y las librerias React y Redux de 100hs de duración."},
+  {title: "Data Visualization", lugar: "freeCodeCamp", text: "Curso de programación acerca de la muestra de información con la libreria D3.js de 100hs de duración."}
 ];
 const infoCursosEn = [
-  {title: "RESPONSIVE WEB DESIGN", lugar: "FreeCodeCamp", text:"Programming course on HTML and CSS of 300 hours of duration."},
-  {title: "JavaScript Algorithms and Data Structures", lugar: "FreeCodeCamp", text: "Programming course on JavaScript of 300 hours of duration."},
-  {title: "FrontEnd Development Libraries", lugar: "FreeCodeCamp", text: "Programming course on FrontEnd libraries of 300 hours duration."}
+  {title: "Responsive Web Design", lugar: "freeCodeCamp", text:"Programming course on HTML and CSS to make responsive web design pages of 300 hours of duration."},
+  {title: "Relational Database", lugar: "freeCodeCamp", text: "Programming course using the terminal with Bash, PostfreSQL and Git to make interactive programs saving the information in database based on SQL with an version control system. Duration: 300hs."},
+  {title: "Back End Development and APIs", lugar: "freeCodeCamp", text: "Programming course about Back End with Node.js using the framework Express creating microservices and saving the data in database noSQL with MongoDB of 300hs duration."}
+  {title: "JavaScript Algorithms and Data Structures", lugar: "freeCodeCamp", text: "Programming course on JavaScript about the fundamental basis, the interactive Front End, as well as OOP and FP of 300 hours duration."},
+  {title: "FrontEnd Development Libraries", lugar: "freeCodeCamp", text: "Programming course on FrontEnd libraries such as, Bootstrap, Sass, jQuery and the libraries React and Redux of 100 hours duration."},
+  {title: "Data Visualization", lugar: "freeCodeCamp", text: "Programming course about data visualization with the D3.js library of 100hs duration."},
 ];
 
 let languagesEs = [
@@ -201,7 +207,7 @@ let languagesEn = [
   {idioma: "SPANISH", nivel: " - NATIVE."}
 ];
 
-let curriculumStudiesEs = "Estudiante de Licenciatura en Análisis";
+let curriculumStudiesEs = "Estudiante de Licenciatura en Análisis de Sistemas";
 let curriculumStudiesEn = "Student of Bachelor Degree in Systems Analysis";
 //----------------------//
 
