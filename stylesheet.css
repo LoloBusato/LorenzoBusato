@@ -116,12 +116,12 @@ a{
     cursor: pointer;
   }
   .hamburgerIcon {
-    width: 50px;
-    height: 50px;
-  }
-  .closeIcon {
     width: 40px;
     height: 40px;
+  }
+  .closeIcon {
+    width: 30px;
+    height: 30px;
   }
   .open-menu {
     padding: 0;
