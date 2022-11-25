@@ -316,9 +316,14 @@ const infoSeccionAbout = [
   {info: "HTML", foto: "./Pictures/HTML.png"},
   {info: "CSS", foto: "./Pictures/CSS.png"},
   {info: "JavaScript", foto: "./Pictures/javascript.png"},
-  {info: "Bootstrap", foto: "./Pictures/Bootstrap.png"},
+  {info: "Node.js", foto: "./Pictures/Nodejs.png"},
+  {info: "Git", foto: "./Pictures/Git.png"},
+  {info: "Bash", foto: "./Pictures/Bash.png"},
+  {info: "postgreSQL", foto: "./Pictures/postgreSQL.png"},
+  {info: "MongoDB", foto: "./Pictures/MongoDB.png"},
   {info: "React", foto: "./Pictures/react.png"},
-  {info: "Redux", foto: "./Pictures/redux.png"}
+  {info: "Redux", foto: "./Pictures/redux.png"},
+  {info: "Bootstrap", foto: "./Pictures/Bootstrap.png"}
 ];
 
 function aboutSeccion(info, foto) {
