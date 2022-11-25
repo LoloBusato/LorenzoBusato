@@ -44,7 +44,7 @@ const proyectosUnitEs = [
   {hrefPage: "https://lolobusato.github.io/Drum-Machine/", hrefRep: "https://github.com/LoloBusato/Drum-Machine", text: "Batería Virtual"},
   {hrefPage: "https://lolobusato.github.io/Markdown-Previewer/", hrefRep: "https://github.com/LoloBusato/Markdown-Previewer", text: "Markdown Vista"},
   {hrefPage: "https://lolobusato.github.io/JavaScript-Calculator/", hrefRep: "https://github.com/LoloBusato/JavaScript-Calculator", text: "Calculadora"},
-  {hrefPage: "https://lolobusato.github.io/LorenzoBusato/", hrefRep: "https://github.com/LoloBusato/LorenzoBusato", text: "Lorenzo Página"},
+  {hrefPage: "https://lolobusato.github.io/LorenzoBusato/indexEs", hrefRep: "https://github.com/LoloBusato/LorenzoBusato", text: "Lorenzo Página"},
 ];
 const proyectosUnitEn = [
   {hrefPage: "https://codepen.io/LoloBusato/full/BaxYPXe", hrefRep: "https://codepen.io/LoloBusato/pen/BaxYPXe", text: "Quote Machine"},
@@ -52,7 +52,7 @@ const proyectosUnitEn = [
   {hrefPage: "https://lolobusato.github.io/Drum-Machine/", hrefRep: "https://github.com/LoloBusato/Drum-Machine", text: "Drum Machine"},
   {hrefPage: "https://lolobusato.github.io/Markdown-Previewer/", hrefRep: "https://github.com/LoloBusato/Markdown-Previewer", text: "Markdown Previewer"},
   {hrefPage: "https://lolobusato.github.io/JavaScript-Calculator/", hrefRep: "https://github.com/LoloBusato/JavaScript-Calculator", text: "Calculator"},
-  {hrefPage: "https://lolobusato.github.io/LorenzoBusato/", hrefRep: "https://github.com/LoloBusato/LorenzoBusato", text: "Lorenzo Website"},
+  {hrefPage: "https://lolobusato.github.io/LorenzoBusato/indexEs", hrefRep: "https://github.com/LoloBusato/LorenzoBusato", text: "Lorenzo Website"},
 ];
 //---------------------//
 
@@ -162,7 +162,7 @@ const infoContacto = [
   {info: " +54 9 11 6125 2839", img1: "fa-solid", img2: "fa-phone", href: "https://api.whatsapp.com/send?phone=541161252839"},
   {info: " lorenzobusato07@gmail.com", img1: "fa-solid", img2: "fa-envelope", href: "mailto: lorenzobusato07@gmail.com"},
   {info: " Buenos Aires, Argentina", img1: "fa-solid", img2: "fa-location-dot", href: "https://www.google.com/maps/place/Buenos+Aires,+CABA/@-34.6158238,-58.4332985"},
-  {info: " lolobusato.github.io/LorenzoBusato/", img1: "fa-solid", img2: "fa-globe", href: "https://lolobusato.github.io/LorenzoBusato/"}
+  {info: " lolobusato.github.io/LorenzoBusato/indexEn", img1: "fa-solid", img2: "fa-globe", href: "https://lolobusato.github.io/LorenzoBusato/indexEn"}
 ];
 //------------------//
 const infoExperienciaLaboralEs = [
