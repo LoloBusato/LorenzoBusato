@@ -522,6 +522,21 @@ input:checked + .slider:before {
 .foto-img-2 {
   display: none;
 }
+#qr-conteiner {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+#qr-code {
+  width: 60%;
+}
+.conteiner-info {
+  margin-top: 40px;
+}
+#cursos{
+  margin: 0;
+  padding-top: 80px;
+}
 @media (max-width: 1032px){
   .webpage {
     font-size: 16px;
