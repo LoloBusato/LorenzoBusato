@@ -417,6 +417,7 @@ input:checked + .slider:before {
   max-width: 1200px;
   flex-wrap: wrap;
   border: 1px solid #000035;
+  background-color: #F1F6F9;
 }
 .curriculum-izq{
   background-color: #9AADCF;
@@ -493,7 +494,7 @@ input:checked + .slider:before {
 .curriculum-der{
   color: black;
   padding: 120px 0px 40px 0px;
-  background-color: #F1F6F9;
+  width: 60%;
 }
 .curriculum-header {
   width: 80%;
