@@ -125,7 +125,6 @@ a{
   }
   .open-menu {
     padding: 0;
-    padding-right: 20px;
     margin: 0;
     align-self: center;
     width: 100%;
@@ -403,7 +402,10 @@ input:checked + .slider:before {
 }
 .curriculum-contacto .curriculum-texto {
   text-decoration: none;
+}
+.curriculum-contacto p {
   color: black;
+  margin-bottom: 0;
 }
 .curriculum-contacto .curriculum-texto:hover {
   color: #F1F6F9;
@@ -503,7 +505,7 @@ input:checked + .slider:before {
   margin-bottom: 18px;
 }
 .curriculum-header h1 {
-  font-size: 53px;
+  font-size: 60px;
   margin-bottom: -5px;
 }
 .curriculum-header p {
@@ -537,21 +539,13 @@ input:checked + .slider:before {
 .foto-img-2 {
   display: none;
 }
-#qr-conteiner {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
-}
-#qr-code {
-  width: 60%;
-}
 .conteiner-info {
   margin-top: 40px;
   color: black;
 }
 #cursos{
-  margin: 0;
-  padding-top: 80px;
+  margin: 0 0 60px 0;
+  padding-top: 60px;
 }
 @media (max-width: 1032px){
   .webpage {
@@ -601,6 +595,13 @@ input:checked + .slider:before {
   .curriculum-contacto .curriculum-texto{
     font-size: 20px;
   }
+  .curriculum-header {
+    text-align: center;
+    width: 90%;
+  }
+  .curriculum-div {
+    width: 40%;
+  }
   .webpage {
     font-size: 20px!important;
   }
@@ -623,6 +624,7 @@ input:checked + .slider:before {
   }
   .curriculum-der{
     padding-top: 60px;
+    width: 100%;
   }
   .parrafo {
     margin-top: 50px;
@@ -640,7 +642,10 @@ input:checked + .slider:before {
 }
 @media (max-width: 368px){
   .curriculum-contacto .curriculum-texto{
-    font-size: 14px!important;
+    font-size: 15px!important;
+  }
+  .footer {
+    padding-left: 10px;
   }
 }
 /* Sección contacto */
@@ -649,8 +654,6 @@ input:checked + .slider:before {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contact-conteiner {
 }
 .contact-header {
   text-align: center;
@@ -673,11 +676,12 @@ input:checked + .slider:before {
 }
 .contact-links a{
   text-shadow: 2px 2px 1px #1f1f1f;
+  margin: 0 5px;
 }
 footer {
   display: flex;
   height: 6vh;
-  padding: 10px 0 0 10px;
+  padding: 10px 0 0 2%;
   border-top: 4px solid white;
   font-size: 15px;
 }
