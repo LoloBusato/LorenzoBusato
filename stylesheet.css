@@ -403,6 +403,7 @@ input:checked + .slider:before {
 }
 .curriculum-contacto .curriculum-texto {
   text-decoration: none;
+  color: black;
 }
 .curriculum-contacto .curriculum-texto:hover {
   color: #F1F6F9;
@@ -521,6 +522,18 @@ input:checked + .slider:before {
 .curriculum-parrafo-der p:first-of-type {
   margin-top: 18px;
 }
+.curriculum-parrafo-lenguaje {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  letter-spacing: 0.08em;
+}
+.curriculum-parrafo-lenguaje p {
+  margin-bottom: 8px;
+}
+.curriculum-parrafo-lenguaje p:first-of-type {
+  margin-top: 18px;
+}
 .foto-img-2 {
   display: none;
 }
@@ -534,6 +547,7 @@ input:checked + .slider:before {
 }
 .conteiner-info {
   margin-top: 40px;
+  color: black;
 }
 #cursos{
   margin: 0;
